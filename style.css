@@ -1,0 +1,27 @@
+hr { 
+    height: 10mm;
+    color: aqua;
+    background-color: blueviolet;
+    border-color: crimson;
+    border-width: 10mm;
+} 
+
+.text span {
+    text-decoration: underline;
+}
+
+.text b {
+    color: darkblue;
+}
+
+.link:hover {
+color: green;
+}
+
+.input:focus {
+    border: 2px solid #000000;
+}
+
+.input:read-only {
+    border: 2px solid #2600ff;
+}
