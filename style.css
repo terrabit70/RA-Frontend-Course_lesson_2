@@ -17,7 +17,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.container,
+.about {
   width: 1110px;
   margin: auto;
 }
@@ -111,22 +112,41 @@ body {
 }
 /* Hero end */
 
-.skills {
-  width: 400px;
-  margin: 40px;
+/* about me */
+.about {
+  padding: 60px 0 140px 0;
 }
 
-.indicator {
-  height: 4px;
-  background-color: #C4C4C4;
+
+.about-me {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.indicator__percent {
-  display: block;
-  height: 100%;
-  background-color: #34547A;
+
+.about-me__descr {
+  
+  box-align: center;
 }
 
+.about-me__descr h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+  color: #000;
+  text-align: center
+}
+
+.about-me__descr p {
+  color: #727272;
+  margin: 0 0 30px 0;
+  text-align: center
+}
+
+/* about me end */
+
+/* how i works */
 .how-works .video {
   width: 50%;
 }
@@ -149,3 +169,5 @@ body {
   background-color: #000;
   opacity: 0.4;
 }
+
+/* how i works end */
