@@ -18,7 +18,8 @@ body {
 }
 
 .container,
-.about {
+.about,
+.how {
   width: 1110px;
   margin: auto;
 }
@@ -126,7 +127,6 @@ body {
 
 
 .about-me__descr {
-  
   box-align: center;
 }
 
@@ -147,15 +147,41 @@ body {
 /* about me end */
 
 /* how i works */
-.how-works .video {
-  width: 50%;
+
+.how {
+  padding: 60px 0 140px 0;
 }
 
-.video {
+.how-works {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.how-works__descr {
+  box-align: center;
+}
+
+.how-works__descr h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+  color: #000;
+  text-align: center
+}
+
+.how-works__descr p {
+  color: #727272;
+  margin: 0 0 30px 0;
+  text-align: center
+}
+
+.how_works__img {
   position: relative;
 }
 
-.video img {
+.how_works__img img {
   width: 100%;
   display: block;
 }
